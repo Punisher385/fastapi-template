@@ -1,3 +1,0 @@
-docker-compose up --build
-docker ps
-docker exec -it fastapi_app_dev pip list
