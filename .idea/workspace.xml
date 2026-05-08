@@ -5,10 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="40e534e1-2788-4819-8902-089332e738c3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/services/user_service.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/Знімок екрана 2026-04-29 231616.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/Знімок екрана 2026-04-29 231630.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/Знімок екрана 2026-04-29 231705.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/Знімок екрана 2026-04-29 231750.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/Знімок екрана 2026-04-29 231816.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_29_04_2026_23_49_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_29_04_2026_23_49__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/poetry.lock" beforeDir="false" afterPath="$PROJECT_DIR$/poetry.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
     </list>
@@ -52,6 +57,7 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;Docker.docker-compose.yml: Compose Deployment.executor&quot;: &quot;Run&quot;,
     &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
     &quot;Python.user.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
@@ -71,6 +77,14 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\vasyk\PycharmProjects\fastapi-template\screenshots" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
+      <deployment type="docker-compose.yml">
+        <settings />
+      </deployment>
+      <method v="2" />
+    </configuration>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -92,6 +106,9 @@
       <workItem from="1777495278138" duration="2954000" />
       <workItem from="1777498244117" duration="12000" />
       <workItem from="1777537381322" duration="1117000" />
+      <workItem from="1778246658330" duration="220000" />
+      <workItem from="1778246920653" duration="608000" />
+      <workItem from="1778247555258" duration="376000" />
     </task>
     <servers />
   </component>
