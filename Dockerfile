@@ -1,12 +1,10 @@
-FROM python:3.13
+FROM python:3.12
 
-WORKDIR /app
+WORKDIR /code
 
-COPY pyproject.toml poetry.lock ./
+COPY requirements.txt .
 
-RUN pip install poetry
-RUN poetry config virtualenvs.create false
-RUN poetry install --no-root
+RUN pip install -r requirements.txt
 
 COPY . .
 
