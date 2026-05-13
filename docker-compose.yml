@@ -12,20 +12,23 @@ services:
     depends_on:
       - db
 
+    environment:
+      - POSTGRES_USER=${POSTGRES_USER}
+      - POSTGRES_PASSWORD=${POSTGRES_PASSWORD}
+      - POSTGRES_DB=${POSTGRES_DB}
+      - DATABASE_URL=${DATABASE_URL}
+      - ALEMBIC_DATABASE_URL=${ALEMBIC_DATABASE_URL}
+
+
   db:
     image: postgres:16
 
     restart: always
 
     environment:
-      POSTGRES_USER: fastapi_admin
-      POSTGRES_PASSWORD: secure_pass_456
-      POSTGRES_DB: fastapi_shop
-
-      TZ: UTC
-      PGTZ: UTC
-
-    command: postgres -c timezone=UTC
+      - POSTGRES_USER=${POSTGRES_USER}
+      - POSTGRES_PASSWORD=${POSTGRES_PASSWORD}
+      - POSTGRES_DB=${POSTGRES_DB}
 
     ports:
       - "5432:5432"
